@@ -8,4 +8,10 @@ class MyTest {
         val res = 2+2
         assertThat(res).isEqualTo(4)
     }
+
+    @Test
+    fun test2() {
+        val res = 2-2
+        assertThat(res).isEqualTo(4)
+    }
 }
