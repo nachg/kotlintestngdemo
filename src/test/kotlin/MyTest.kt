@@ -19,6 +19,6 @@ class MyTest {
     @Test
     fun test3() {
         val res = 2-2
-        assertThat(res).isEqualTo(4)
+        assertThat(res).isEqualTo(0)
     }
 }
